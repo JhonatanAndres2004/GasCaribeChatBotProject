@@ -18,7 +18,7 @@ app = Flask(__name__, static_folder="static")
 app.secret_key = 'secret_key'
 
 # Configure Firebase Admin SDK
-cred = credentials.Certificate("Pagina_web/hackatonia2024-firebase-adminsdk-s2ny3-da494fe8e5.json")
+cred = credentials.Certificate("CERTIFICATE")
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://hackatonia2024-default-rtdb.firebaseio.com/',
     'storageBucket': 'hackatonia2024.appspot.com'
@@ -75,7 +75,7 @@ def guardar_mensaje(conversacion_id, pregunta, respuesta):
 
     ref.push(nuevo_mensaje)
 
-    # Actualizar el timestamp de fin en la conversación
+    #Update timestamp
     db.reference(f'conversaciones/{conversacion_id}').update({'timestamp_fin': datetime.datetime.now().isoformat()})
 
 def finalizar_conversacion(conversacion_id):
