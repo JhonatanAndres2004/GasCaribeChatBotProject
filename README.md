@@ -99,32 +99,14 @@ This project was awarded as second best project at the **Hackathon IA Uninorte 2
 
 ---
 
-## 📁 Project Structure
-
-```
-GasCaribe_Chatbot/
-├── Archivos Prueba/         # Prototypes and testing scripts
-├── Información del Reto/    # Hackathon requirements and planning
-├── Pagina_web/              # First web version
-│   ├── app.py
-│   ├── static/
-│   └── templates/
-├── Pagina_web2/             # Improved version with QR scanning
-├── info.pdf                 # Main reference document
-├── info1plus2.pdf           # Merged documents
-└── README.md                # This file
-```
-
----
-
 ## 🏅 Awards
 
-- 🥇 **Winner - Hackathon IA Uninorte 2024**  
+- 🥇 **Winner - Hackathon IA Uninorte 2024: 2ND place**  
   Recognized for outstanding integration of AI in real-world company applications.
 
 ---
 
-## 🙌 Author
+## 🙌 Authors
 
 Developed by **Jhonatan Maldonado and Andrés Fábregas**  
 📫 Feel free to reach out for collaboration or improvements.
